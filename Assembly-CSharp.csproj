@@ -52,8 +52,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Handlers\CameraHandler.cs" />
+    <Compile Include="Assets\Scripts\Handlers\MouseHandler.cs" />
     <Compile Include="Assets\Scripts\HexaMap\HexaMap.cs" />
-    <Compile Include="Assets\Scripts\Model\HexaNode.cs" />
+    <Compile Include="Assets\Scripts\Model\HexNode.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
