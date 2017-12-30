@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 2039302923}
   - component: {fileID: 2039302922}
   m_Layer: 0
-  m_Name: HexaMap
+  m_Name: HexMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,11 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e1db907d68144c7be12b4490fa9d8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HexPrefab: {fileID: 1629885158471546, guid: 66d71ce5639e94ed9b0fea5e4e5a89df, type: 2}
-  TerrainMaterials:
-  - {fileID: 2100000, guid: b2ed78091b7ffdf4ab6a73d638c08538, type: 2}
-  - {fileID: 2100000, guid: 069ee1909817b2f41a34bceea1836146, type: 2}
-  - {fileID: 2100000, guid: 362f4337dcd27304bac6b4d00f131461, type: 2}
 --- !u!4 &2039302923
 Transform:
   m_ObjectHideFlags: 0
@@ -299,7 +294,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2108278554}
   m_LocalRotation: {x: 0.7035489, y: 0.002180488, z: -0.0021587291, w: 0.71064025}
-  m_LocalPosition: {x: 6.12, y: 20.9, z: 8.42}
+  m_LocalPosition: {x: 6.12, y: 81.72, z: 7.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

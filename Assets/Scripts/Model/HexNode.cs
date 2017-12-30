@@ -33,7 +33,7 @@ namespace Model
                 : new Vector3(column * HexNode.Width + HexNode.Width / 2, 0, row * HexNode.HeightSpacing);
         }
 
-        public Vector3 GetPosistionFromCamera(Vector3 cameraPosition, float mapWidth, int mapRows)
+        public Vector3 UpdatePositionForCamera(Vector3 cameraPosition, float mapWidth, int mapRows)
         {
             var position = this.Position;
 
@@ -48,6 +48,8 @@ namespace Model
 
             position.x -= moveDistance * mapWidth;
 
+
+            this.HexGO.transform.position = position;
             return position;
         }
     }
